@@ -9,9 +9,9 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play A Study in Greyscale.</tw-noscript></noscript></tw-story>
-<tw-storydata name="A Study in Greyscale" startnode="20" creator="Aalhad && Sushrut" creator-version="2.6.2" format="Harlowe" format-version="3.3.5" ifid="229a9c21-4b22-4c02-a384-056d9e1cce9c" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
+<tw-storydata name="A Study in Greyscale" startnode="20" creator="Aalhad and Sushrut" creator-version="2.6.2" format="Harlowe" format-version="3.3.5" ifid="229a9c21-4b22-4c02-a384-056d9e1cce9c" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
   background-color: #ffffff;
-  color: black;
+  color: #101010;
   font-family: "Latin Modern", serif;
   font-size: 22px;
   font-style: normal;
@@ -23,6 +23,13 @@
   font-style: bold;
   color: black;
 }
+
+.chessmove {
+  font-family: "Latin Modern", serif;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+}	
 
 a {
   color: #417DCD;
@@ -275,6 +282,7 @@ tw-link.story-menu:active {
 }
 input[type="range"].hal {
   -webkit-appearance: none;
+  appearance: none;
   width: 100%;
   margin: 2.25px 0;
 }
@@ -1532,7 +1540,8 @@ class=&quot;math inline&quot;&gt;2&lt;sup&gt;&lt;em&gt;k&lt;/em&gt;&lt;/sup&gt;�
 
 &quot;Ah, Watson, the answer of that question is left as an exercise to you!&quot;
 
-[[Next|retrograde-intro-1]]</tw-passagedata><tw-passagedata pid="8" name="retrograde-intro-1" tags="" position="675,600" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;A Checkered Past(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+[[Next|retrograde-intro-1]]
+[[More Information|2nx2n-alternative-5]]</tw-passagedata><tw-passagedata pid="8" name="retrograde-intro-1" tags="" position="675,600" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;A Checkered Past(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
 A bleak, snowy day saw Holmes and I trapped inside our rooms. With hot cocoa as my companion, I endeavoured to read through the newspaper. A pompous headline caught my attention:
 
 &quot;Derbyshire Murder Solved: Why The Past Is More Important Than The Present&quot;
@@ -1884,14 +1893,14 @@ My heart yearns for the warm English sun, the fields full of daffodils, the hey-
 
 [[What now?|end]]
 
-</tw-passagedata><tw-passagedata pid="32" name="end" tags="" position="1000,1975" size="100,100">&lt;h5 class=&quot;heading&quot;&gt;SoME &#39;23(set: $game_completed to 1)(playlist: &#39;background&#39;, &#39;stop&#39;)&lt;/h5&gt;
+</tw-passagedata><tw-passagedata pid="32" name="end" tags="" position="1000,1975" size="100,100">&lt;h5 class=&quot;heading&quot;&gt;SoME &#39;23(set: $game_completed to 1)(playlist: &#39;background&#39;, &#39;pause&#39;)&lt;/h5&gt;
 &lt;h2 class=&quot;heading&quot;&gt;Fin.&lt;/h2&gt; 
 
 Our submission for SoME 2023 ends here. During the process of making this explainer, we&#39;ve learnt a lot of cool stuff - namely, programming, discrete maths, graph theory and how to center content inside a div. 
 
 We&#39;ve proofread this thing a couple of times. However, if you find bugs, errors, inaccuracies, anachronisms or canonical errors, please email us at &lt;strong&gt;somecroissant@gmail.com&lt;/strong&gt;.&lt;br&gt;&lt;br&gt;
 &lt;h4 class=&quot;heading&quot;&gt;Extra Problems&lt;/h4&gt;
-Given the time constraint, we decided to skip over &lt;a href=&quot;https://moneaalhad.github.io/&quot; target=&quot;_blank&quot;&gt;these problems&lt;/a&gt;. Another reason we made this call is that these problems might take time to strike one as directly linked to mathematics. However, don&#39;t let that deter you from checking them out – they&#39;re pretty cool exercises in logical thinking. We&#39;ve also put a bit of effort in making them, so that&#39;s all the more reason to go solve them. &lt;br&gt;&lt;br&gt;
+Given the time constraint, we decided to skip over [[this problem|the-hardest-checkmate]]. However, don&#39;t let that deter you from checking it out – it&#39;s a great exercise in logical thinking. &lt;br&gt;&lt;br&gt;
 &lt;h4 class=&quot;heading&quot;&gt;References&lt;/h4&gt;
 Any progress in the field of science is a team effort. We&#39;re standing on the shoulders of these giants...
 * Engel A, Problem-Solving Strategies; Springer: Problem Books in Mathematics, p. 364.
@@ -1933,11 +1942,229 @@ This page allows you to jump to any problem provided you&#39;ve visited it atlea
 * [[Promoted Bishop|retrograde1-problem-2]]&lt;br&gt;
 * [[Bishop Square Color|retrograde2-problem-2]]&lt;br&gt;
 * [[//n// Independent Queens|n-queens-problem-2]]&lt;br&gt;
-
+* [[White To Play, Mate in Two|the-hardest-checkmate]]&lt;br&gt;
 
 [[Return to Conclusion|end]]
 </tw-passagedata><tw-passagedata pid="36" name="hello-easter" tags="" position="375,325" size="100,100">&lt;div style=&quot;text-align:center&quot;&gt;&lt;img width=500 src = &quot;https://moneaalhad.files.wordpress.com/2023/08/helo-fish-.jpeg&quot;&gt;&lt;/div&gt;
-[[Instructions]] </tw-passagedata></tw-storydata>
+[[Instructions]] </tw-passagedata><tw-passagedata pid="37" name="the-hardest-checkmate" tags="" position="1175,1225" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;Blackfriars Chess Club(if: not(playlist: &#39;background&#39;, &#39;isplaying&#39;))[(playlist: &#39;background&#39;, &#39;play&#39;)](track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+It was a fine evening for a stroll around town. Winter had lifted her cold embrace from the land, and the smoke from the chimneys had long since drifted away on the strong spring breeze. Holmes had just returned from the boxing ring. He tossed a letter onto the table.
+
+&quot;It’s an invitation from Alfred Newman at the Blackfriars Chess Club - prizes offered to anyone who can solve a series of chess puzzles-&quot;
+
+&quot;Say no more. I shall get my coat, and my hat.&quot;
+
+&quot;Your enthusiasm is commendable - off we go, then.&quot;
+
+Five minutes later, we were sitting in a brougham speeding away from Baker Street.
+
+&quot;What sort of a person is Alfred Newman? The name eludes me.&quot; 
+
+&quot;Oh, he is a showman. By trade, he edits the Times. He has made quite a few friends in high places, and is well off - the reason, you see, for him organising this particular event. Newman is a huge chess enthusiast - indeed, I may go so far as to call him a fanatic. He is obsessed with &quot;uncovering the next hidden talent&quot;. I have no doubt that at this event, we shall find numerous agents ready to shower potential candidates with contracts.&quot;
+
+&quot;Have you met him?&quot;
+
+&quot;Once, long back in connection with one of my cases. I had found a misprint in the Times.&quot;
+
+I raised an eyebrow.
+
+&quot;Ah, Watson, you must not blame me for enjoying what little praise I get as a consulting detective. In the beginning of my career, I felt strongly that I should be credited with my work, and Newman conveniently forgot to print my name next to Lestrade. It was this misprint I was going to correct.
+
+&quot;Be prepared, Watson, for devilish problems. The man is shrewd as a fox, and the problems are likely to be confusing.&quot;
+
+There was a considerable crowd at the chess club. The line of cabs waiting outside was disheartening, but Holmes slipped a shilling to the man at the door, who let us in without much fuss. 
+
+The arrangement inside was spectacular. There were twelve tables, each suffocated by a large assortment of people - save for one, where only two people were engaged in heated discussion. One of them, a portly man with a moustache, was evidently very invested in the debate.
+
+&quot;I tell you, it’s not possible,&quot; he said.
+
+Holmes and I walked to Table 12, where [[this position|hardest-checkmate-problem-3]] was laid out.
+</tw-passagedata><tw-passagedata pid="38" name="hardest-checkmate-problem-3" tags="" position="1175,1350" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;White To Play, Mate In Two(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+
+&lt;p class=&quot;question&quot;&gt;&lt;br&gt;It is White&#39;s move. Can he mate in two?&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt; &lt;img width=600 height=600 class=&quot;chessboard&quot; src=&quot;https://moneaalhad.files.wordpress.com/2023/09/fc-2-castled-1.png&quot; alt=&quot;chessboard for problem&quot;&gt; &lt;/div&gt;
+
+&lt;p class=&quot;hint&quot;&gt;Hint: Account for pieces on the board as well as off the board. It is strongly recommended to follow this solution with a chessboard.
+
+[[Next|hardest-checkmate-2]]
+(if: $game_completed is 1)[[[Index|index]]]</tw-passagedata><tw-passagedata pid="39" name="hardest-checkmate-2" tags="" position="1175,1475" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;White To Play, Mate In Two(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+
+&quot;Good evening. Would you care to try Mr. Newman’s hardest puzzle yet?&quot;
+
+Holmes looked over the board again.
+
+&quot;Fiendish - and familiar! But first - who was that gentleman?&quot;
+
+&quot;That is Lord Sabitzer, from the Black Forest. He claimed that this position was impossible, and there is no mate in 2.&quot;
+
+&quot;Interesting, very interesting!&quot; Holmes remarked, rubbing his palms together.
+
+&quot;What is the prize for solving this particular puzzle?&quot; I enquired.
+
+The supervisor smiled.
+
+&quot;As this is Mr. Newman’s first event in Blackfriars, a bottle of champagne and thirty pounds are offered to whoever can find a solution. Moreover, whoever manages to also solve the puzzle on Table 6 alongside this one will get an additional ten pounds.&quot;
+
+&quot;Excellent! I would like to try.&quot; I said. 
+
+The table supervisor left me with a notepad. I found two ways to mate in four moves almost instantly. But try as I might, I simply could not find a mate-in-two. The Black king always found ways to escape. For instance, &lt;span class=&quot;chessmove&quot;&gt;Qd6!&lt;/span&gt; is a great move - but countered by castling queenside.
+
+I also calculated some trapping positions to no avail.
+
+Finally, after almost forty minutes, I wiped my brow and left Table 12. Holmes was discussing something animatedly with Lord Sabitzer, and I motioned him over.
+
+&quot;Well, Watson? How goes the fight for thirty pounds?&quot;
+
+&quot;Dismal. I was able to find a mate in four moves, but that does not help me.&quot;
+
+&quot;I see. It seems [[I shall have to try.&quot;|hardest-checkmate-solution-4]]</tw-passagedata><tw-passagedata pid="40" name="hardest-checkmate-solution-4" tags="" position="1175,1600" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;White To Play, Mate In Two(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+Leaving Holmes to his own devices, I chatted with various acquaintances for a while. Almost half an hour later, there was a smattering of applause from Table 12. 
+
+&quot;Why, you’ve done it, Holmes!&quot; I said.
+
+&quot;Always the tone of surprise, my dear Watson - but it’s quite all right! I have solved the position, and am twenty-eight pounds richer if you account for our cab fare back home.&quot;
+
+&quot;Pray tell me how.&quot;
+
+Around this time, the crowd from some of the other tables was beginning to shift in our direction, and some of the supervisors themselves were walking over.
+
+&quot;Like all of you here, I immediately found mate in four moves - and also in five, and seven moves. But that is of no consequence - let us look at the moves I played out.
+
+&quot;There is no sequence where we can check and mate on the next move. Therefore, the first move must be a trapping move - that is, it must threaten checkmate on the next move.
+
+&quot;What pieces can deliver mate? The strongest piece is clearly the queen. Therefore, &lt;span class=&quot;chessmove&quot;&gt; Qd6!&lt;/span&gt; seems like a good idea, threatening &lt;span class=&quot;chessmove&quot;&gt;Qxe7#&lt;/span&gt;. The Black queen is pinned by the rook, and capturing with the pawn gives &lt;span class=&quot;chessmove&quot;&gt;Ng7#&lt;/span&gt;. 
+
+However, Black has a sneaky trick up his sleeve - castling counters //Qd6// and it is no longer a checkmate in two moves.
+
+&lt;div style=&quot;text-align:center;&quot;&gt; &lt;img width=600 height=600 class=&quot;chessboard&quot; src=&quot;https://moneaalhad.files.wordpress.com/2023/09/fc-1-problem-1.png&quot; alt=&quot;chessboard for problem&quot;&gt; &lt;/div&gt;
+
+[[What now?|hardest-checkmate-solution-5]]
+
+</tw-passagedata><tw-passagedata pid="41" name="hardest-checkmate-solution-5" tags="" position="1175,1725" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;White To Play, Mate In Two(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+
+&quot;I was stumped. There seemed to be no solution indeed.&quot; Holmes said.
+
+&quot;However, Watson will tell you that I have a method: if you have eliminated all possible outcomes, then whatever remains, however absurd, must be the truth. I had considered all moves where mating was possible. But mate problems only look at legal moves, not illegal ones!
+
+&quot;If I could prove that either the King or the Black rook had moved in the match sometime prior, I could prove that castling is illegal in this situation - and therefore there is no escape from &lt;span class=&quot;chessmove&quot;&gt;Qd6!&lt;/span&gt;
+
+&quot;Now, castling is legal provided three conditions are met: the rook should not have moved, the king should not have moved and the king cannot come into check while castling.
+
+&quot;And so I set out to find out if Black can castle.&quot;
+
+[[Can Black castle?|hardest-checkmate-solution-6]]
+
+
+</tw-passagedata><tw-passagedata pid="42" name="hardest-checkmate-solution-6" tags="" position="1325,1725" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;White To Play, Mate In Two(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+
+&quot;For the rest of this solution, we will refer to the rooks, bishops, and knights as pieces, while the royalty will retain their titles. 
+
+&quot;White is missing two pawns, and three pieces - a rook, the light square bishop and a knight. Black is missing a pawn, a rook, both bishops and both knights.&quot;
+
+&quot;Let us look first at the pawn on //g2//. It has made four captures coming from &lt;span class=&quot;chessmove&quot;&gt;c7&lt;/span&gt;. Moreover, the captures have been on squares &lt;span class=&quot;chessmove&quot;&gt;d6&lt;/span&gt;, &lt;span class=&quot;chessmove&quot;&gt;e5&lt;/span&gt;, &lt;span class=&quot;chessmove&quot;&gt;f4&lt;/span&gt;, and &lt;span class=&quot;chessmove&quot;&gt;g3&lt;/span&gt; respectively - which are all dark squares. Therefore, the pawns on &lt;span class=&quot;chessmove&quot;&gt;h4&lt;/span&gt; and &lt;span class=&quot;chessmove&quot;&gt;g6&lt;/span&gt; must be from &lt;span class=&quot;chessmove&quot;&gt;h7&lt;/span&gt; and &lt;span class=&quot;chessmove&quot;&gt;g7&lt;/span&gt;.
+
+&quot;What could have been Black’s last move? If it was with the rook or the king, we can play &lt;span class=&quot;chessmove&quot;&gt;Qd6&lt;/span&gt;, since castling is now illegal, and we threaten mate in two. So, we come up with four possible moves:
+0. It could be &lt;span class=&quot;chessmove&quot;&gt;g6&lt;/span&gt; from &lt;span class=&quot;chessmove&quot;&gt;g7&lt;/span&gt;.
+0. It could be &lt;span class=&quot;chessmove&quot;&gt;g2&lt;/span&gt;, coming from &lt;span class=&quot;chessmove&quot;&gt;g3&lt;/span&gt;.
+0. The queen could have moved to &lt;span class=&quot;chessmove&quot;&gt;f8&lt;/span&gt; without a capture. This means that White’s rook captured a piece on &lt;span class=&quot;chessmove&quot;&gt;g8&lt;/span&gt; and delivered check, which was blocked by the queen.
+0. The queen could have come from //g7// and captured a white piece on &lt;span class=&quot;chessmove&quot;&gt;f8&lt;/span&gt; thus getting pinned by the rook on &lt;span class=&quot;chessmove&quot;&gt;g8&lt;/span&gt;.
+
+&quot;Let us consider all of these moves in turn - but before, here are some observations I made quickly:
+
+* One of the four White pawns from &lt;span class=&quot;chessmove&quot;&gt;e4, f3, g5&lt;/span&gt; and &lt;span class=&quot;chessmove&quot;&gt;h6&lt;/span&gt; is from &lt;span class=&quot;chessmove&quot;&gt;d2&lt;/span&gt;, as there are two pawns on the //h// file.
+* Additionally, all the White pawns have collectively captured four Black pieces.
+* Black is missing six pieces. One of these - the light squared bishop - fell on its home square. This proves that neither of White’s pawns from &lt;span class=&quot;chessmove&quot;&gt;a2&lt;/span&gt; and &lt;span class=&quot;chessmove&quot;&gt;b2&lt;/span&gt; have made more than one capture (to tally with 4 captures made by the pawns and the fallen bishop).
+* White is missing two pawns and three pieces. Four of these five pieces were captured by the pawn marching from c7 all the way to &lt;span class=&quot;chessmove&quot;&gt;g3&lt;/span&gt; via &lt;span class=&quot;chessmove&quot;&gt;g6&lt;/span&gt; and &lt;span class=&quot;chessmove&quot;&gt;e5&lt;/span&gt;. Of these captures, none can be the pawns from &lt;span class=&quot;chessmove&quot;&gt;a2&lt;/span&gt; and &lt;span class=&quot;chessmove&quot;&gt;b2&lt;/span&gt; (since the //b// pawn will need two captures to get to the //d// column, and we proved that both pawns made collectively one capture).
+
+Therefore, at least one of the pawns from &lt;span class=&quot;chessmove&quot;&gt;a2&lt;/span&gt; and &lt;span class=&quot;chessmove&quot;&gt;b2&lt;/span&gt; has promoted and both pawns made only one capture between them.
+
+[[Next|hardest-checkmate-solution-7]]
+</tw-passagedata><tw-passagedata pid="43" name="hardest-checkmate-solution-7" tags="" position="1325,1850" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;White To Play, Mate In Two(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+
+&quot;First, let us look at case 3 - the queen on //g7// moving to //f8// to block check. The White rook captured a piece on //g8// to deliver check. This means another Black piece was captured - bringing the total up to five. Now, if this is true, the pawns from //a2// and //b2// could not have made any captures at all.
+
+&quot;Just a moment. How can you be sure?&quot; I interrupted. 
+
+&quot;Because Black is missing exactly five pieces. If the rook captured a piece on //g8//, and the black pawn on //g7// made four captures, there is no piece left for the pawns from //a2// and// b2 //to capture.&quot; Holmes said patiently.
+
+&quot;Next, consider case 1 - //g6//, coming from //g7//. This would mean that Black’s dark square bishop was captured on its home square, namely //f8//, because neither of the pawns moved to let it out. 
+
+&quot;In either of these cases, the pawns from //a2 //and //b2// have made no captures.
+
+&quot;If the pawns did not make captures, are not on the board and one of them still promoted, it must have been the pawn from //a2//-&quot;
+
+&quot;Wait,&quot; I said, interrupting thoughtlessly again, &quot;Why could the pawn from //b2// not promote?&quot;
+
+&quot;My dear Watson, the pawn on //b7// has not moved and blocks the// b2// pawn from promoting.&quot; Holmes replied with the hint of a smile.
+
+&quot;Pray continue.&quot; I said, feeling very flushed.
+
+&quot;So the// a2// pawn has promoted. It cannot make a capture, and therefore can only promote on //a8//. However, if the rook was still on //a8//, the pawn could never have promoted - and therefore, when the pawn promoted, the rook was not on //a8// - hence, the rook has moved at least once in the game.
+
+[[Next Cases|hardest-checkmate-solution-8]]
+</tw-passagedata><tw-passagedata pid="44" name="hardest-checkmate-solution-8" tags="" position="1325,1975" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;White To Play, Mate In Two(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+
+&quot;Now for cases 2 and 4; //g2// coming from //g3//, and the queen coming from //g7// capturing a White piece on //f8//, getting pinned by the rook in the process. 
+
+&quot;Suppose the queen has captured a White piece on //f8//. Then combined with the four White pieces fallen on dark squares, both the pawns need to promote - else, there is one piece less left to capture, and White has the logical impossibility of losing less pieces than the ones which were captured.
+
+&quot;Similarly, if the pawn on //g2// has just moved from //g3//, all of its captures were made on dark squares. Now, at first sight, this might appear to be true, and therefore stonewall us again. But ha! Look at this!&quot; said Holmes energetically, moving towards the board.
+
+&quot;The one piece which can never be captured on a dark square is White’s light square bishop - which is not on the board, therefore forcing both //a2// and //b2// to promote. Both the pawns have made exactly one capture between the two of them - and this capture must have been made by the //b2// pawn, since the pawn on //b7// blocks promotion on //b8//. 
+
+&quot;We ask ourselves: what square did this pawn promote on? The answer is, of course, a8. But that must mean that for both promotions, the rook on //a8// was absent - and therefore, has moved at least once in the game.&quot;
+
+&quot;The rest of the puzzle is now prosaic, my good friends!&quot; he continued, striding towards the other side of the board. He picked the queen up and put her on //d6//.
+
+&quot;I play queen to //d6//. Having proved that you cannot castle, any move you play now ends in checkmate! If the queen is captured on //d6// by the pawn, //Ng7// delivers checkmate thunderously! The king’s only escape square is now guarded by the dark square bishop on //f6//. 
+
+&quot;If the queen is not captured, it is of no consequence what you play. Black can play //g8=Q, Ra2, Rd8// - all of them would not make a pennyworth of difference to the unstoppable //Qxe7#// - the Black queen, the sole defender of the pawn, is pinned by the White rook on //g8//. And, therefore, I have solved the puzzle!&quot;
+
+[[Next|hardest-checkmate-solution-9]]
+</tw-passagedata><tw-passagedata pid="45" name="hardest-checkmate-solution-9" tags="" position="1325,2100" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;White To Play, Mate In Two(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+
+Never has Holmes had more complete control of a room than that evening in the chess club. There was complete silence at first, as the crowd struggled to comprehend the intricacy of the position. Then, slowly, the applause began, swelling around the room. To cap it all off, Mr. Newman himself came to Table 12.
+
+&quot;A compelling narrative, Mr. Holmes, quite brilliant, exceptionally flawless! Your reputation as a consulting detective is not unfounded. It was one of my eccentric ideas, you see - one of them-&quot;
+
+&quot;I am not used to public admiration, Mr. Newman. However, tell me - are you in correspondence with a certain M. Rochefort from the United States?&quot;
+
+Aghast, Mr. Newman looked at me.
+
+&quot;Is he a wizard?&quot;
+
+&quot;No matter, Mr. Newman. I hope to solve some of the other problems here, as well. Good day to you!&quot;
+
+&quot;Holmes, how could you possibly know-&quot;
+
+&quot;My dear Watson, M. Rochefort, the original composer of this demonic problem, is none other than Moriarty himself!&quot;
+
+[[Index|index]] </tw-passagedata><tw-passagedata pid="46" name="2nx2n-alternative-5" tags="" position="1200,350" size="100,100">&lt;h3 class=&quot;heading&quot;&gt;Mathematics On The Chessboard(track: &#39;paperturn&#39;, &#39;play&#39;)&lt;/h3&gt;
+
+We noticed from the feedback that a few people were not convinced that you could tile said board with any arbitrarily chosen square removed. Thus we decided to elaborate:
+
+It’s clear from the inductive solution that you can always tile a &lt;span class=&quot;math inline&quot;&gt;2&lt;sup&gt;&lt;em&gt;n&lt;/em&gt;&lt;/sup&gt;&lt;/span&gt; board when one of the four central most squares is removed. 
+ 
+Assume that you are given an arbitrary square to remove from the board.
+
+If it is one of the four central squares, the method is already clarified.
+
+Thus, assume that it is not one of the four central squares. Then start by removing one of the four squares manually and tile the remaining board as given in the solution. Then, translate, or move, the central removed square to the arbitrary square given to you as follows:&lt;br&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt; &lt;img width=400 height=400 class=&quot;chessboard&quot; src=&quot;https://moneaalhad.files.wordpress.com/2023/09/1.jpg&quot; alt=&quot;Board shown with one central square removed.&quot;&gt;&lt;br&gt;Board shown with one central square removed.&lt;/div&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt; &lt;img width=400 height=400 class=&quot;chessboard&quot; src=&quot;https://moneaalhad.files.wordpress.com/2023/09/2.jpg&quot; alt=&quot;Board shown with one central square removed and the assigned square marked in purple.&quot;&gt;&lt;br&gt;Board shown with one central square removed and the assigned square marked in purple.&lt;/div&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt; &lt;img width=400 height=400 class=&quot;chessboard&quot; src=&quot;https://moneaalhad.files.wordpress.com/2023/09/3.jpg&quot; alt=&quot;A fully tiled board with the assigned square covered with a domino and the central square left uncovered.&quot;&gt;&lt;br&gt;A fully tiled board with the assigned square covered with a domino and the central square left uncovered.&lt;/div&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt; &lt;img width=400 height=400 class=&quot;chessboard&quot; src=&quot;https://moneaalhad.files.wordpress.com/2023/09/4.jpg&quot; alt=&quot;The fully tiled board with the assigned square covered with a domino and the removed square &#39;shifted&#39; by rotating the domino.&quot;&gt;&lt;br&gt;The fully tiled board with the assigned square covered with a domino and the removed square &#39;shifted&#39; or moved by rotating the purple domino.&lt;/div&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt; &lt;img width=400 height=400 class=&quot;chessboard&quot; src=&quot;https://moneaalhad.files.wordpress.com/2023/09/5.jpg&quot; alt=&quot;The removed square &#39;shifts&#39; further towards the assigned square...&quot;&gt;&lt;br&gt;The removed square &#39;shifts&#39; further towards the assigned square...&lt;/div&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt; &lt;img width=400 height=400 class=&quot;chessboard&quot; src=&quot;https://moneaalhad.files.wordpress.com/2023/09/6.jpg&quot; alt=&quot;bada bing, bada boom!&quot;&gt;&lt;br&gt;bada bing, bada boom!&lt;/div&gt;
+
+[[Return to P2 solution|2nx2n-solution-4]] 
+[[Next Problem|retrograde-intro-1]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
